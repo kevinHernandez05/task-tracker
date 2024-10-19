@@ -10,25 +10,27 @@ Task-tracker is a CLI tool designed programmed in Go to help you track and manag
 
 ## Usage
 
-```bash
-task-tracker [command]` 
+```
+task-tracker [command]
+```
 
 ### Available Commands
-
--   `create`: Create a new task
--   `delete`: Delete a task
--   `help`: Get help about any command
--   `list`: List all tasks
--	`list done`: List all tasks with "Done" status
--	`list in-progress`: List all tasks with "In Progress" status
--   `list to-do`: List all tasks with "To Do" status
--   `mark-done`: Mark a task as done
--   `mark-in-progress`: Mark a task as in progress
--   `update`: Update a task
--
+```
+-   create: Create a new task
+-   delete: Delete a task
+-   help: Get help about any command
+-   list: List all tasks
+-   list done: List all tasks with "Done" status
+-   list in-progress: List all tasks with "In Progress" status
+-   list to-do: List all tasks with "To Do" status
+-   mark-done: Mark a task as done
+-   mark-in-progress: Mark a task as in progress
+-   update: Update a task
+```
 
 ### Flags
 
+```
 -   `-h, --help`: Show help for the task-tracker CLI
 ```
 ## Installation
